@@ -19,7 +19,6 @@ const getBook = (bookNumber) => {
 }
 
 const printBook = (book, bookNumber) => {
-    console.log(book[bookNumber])
     let domString = '';
     domString += `
         <div id="${book[bookNumber]}"class="card col-md-3 px-0 m-3" style="width: 18rem;">
